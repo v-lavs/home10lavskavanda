@@ -26,8 +26,6 @@ function division (a, b) {
   return result
 }
 
-division(4, 2)
-
 //pow
 function pow (number, degree) {
   var result = number
@@ -43,14 +41,28 @@ function pow (number, degree) {
   }
 }
 
+pow(3, 2)
+
 //sqrt
-function sqrt (x) {
-  var result = Math.sqrt(x)
+function sqrt (number) {
+  var result = Math.sqrt(number)
   console.log(result)
   return result
 }
 
-sqrt(16)
+//cos
+function cos (number) {
+  var result = Math.cos(number)
+  console.log(result)
+  return result
+}
+
+//sin
+function sin (number) {
+  var result = Math.sin(number)
+  console.log(result)
+  return result
+}
 
 //factorial
 function factorial (number) {
